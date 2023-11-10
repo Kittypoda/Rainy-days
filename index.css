@@ -146,8 +146,9 @@ h6 {
 p {
     font-family: 'Arian';
     font-weight: 100%;
-    font-size: 12px;
+    font-size: 14px;
     color: #414D55;
+    
 }
 .cta {
     display: flex;
