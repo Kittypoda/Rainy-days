@@ -98,3 +98,21 @@
 
 
 }
+
+.touch {
+    background-color: #414D55;
+    margin-top: -50px;
+    text-align: center;
+    
+}
+.touch  h3 {
+font-size: 50px;
+padding-top: 50px;
+    
+}
+.touch  h4 {
+    font-size: 20px;
+    margin-top: -56px;
+    padding: 30px;
+        
+    }
