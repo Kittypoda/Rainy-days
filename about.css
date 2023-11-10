@@ -27,28 +27,45 @@
 .foss{
     display: flex;
     flex-wrap: wrap;
+    
    
 
 }
 
-.foss1 {
-    background-color: #3C555D;
-   
+.foss4 {
+    
     flex: 1 1 50%;
-    min-height: 350px;
+    
     aspect-ratio: 1;
     justify-content: center; 
     align-items: center; 
+    background-color: #3C555D;
+    max-height: 500px;
        
+}
+.foss4 h2 {
+    color: #B5D2DC;
+    margin: 30px
+   
+    
+    
+    
+}
+
+.foss4 p{
+    color: #fff;
+    margin: 30px;
+    margin-top: -15px;
 }
 
 .foss2 {
-    background-image: url(img/trashmountain.jpeg);
+    background-image: url(img/foss.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex: 1 1 50%;
-    min-height: 350px;
+    max-height: 500px;
+    min-width: 350pxh;
     aspect-ratio: 1;
 }
 
@@ -86,3 +103,5 @@
     border-radius: 5px;
     padding: 6px 60px;
     margin-inline: 60px;
+}
+    
