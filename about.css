@@ -1,0 +1,88 @@
+.about-banner {
+    display: flex;
+    background-image: url(img/bottle.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    min-height: 450px;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.about-banner-text {
+    text-align: center;
+    margin-top: 60px;
+    
+   
+}
+
+.about-banner-text h1 {
+    font-family: 'Arian';
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.foss{
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+.foss1 {
+    background-color: #3C555D;
+   
+    flex: 1 1 50%;
+    min-height: 350px;
+    aspect-ratio: 1;
+    justify-content: center; 
+    align-items: center; 
+       
+}
+
+.foss2 {
+    background-image: url(img/trashmountain.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex: 1 1 50%;
+    min-height: 350px;
+    aspect-ratio: 1;
+}
+
+.foss1 {
+    background-color: #414D55;
+   
+    flex: 1 1 50%;
+    min-height: 350px;
+    aspect-ratio: 1;
+    justify-content: center; 
+    align-items: center; 
+       
+}
+
+.one-mans > h3 {
+    text-align: center;
+    padding-top: 3rem;
+    
+}
+ .one-mans > h4 {
+    text-align: center;
+   
+ }
+
+
+ .one-cta {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-family: 'Arian', sans-serif; 
+    font-size: 17px;
+    color: #fff;
+    border: 1px solid #fff; 
+    border-radius: 5px;
+    padding: 6px 60px;
+    margin-inline: 60px;
