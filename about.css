@@ -105,3 +105,17 @@
     margin-inline: 60px;
 }
     
+.core {
+    background-color: #B5D2DC;
+    padding: 3rem;
+
+}
+
+.core-text{
+    text-align: center;
+}
+
+.core-text h2{
+    font-size: 30px;
+
+}
