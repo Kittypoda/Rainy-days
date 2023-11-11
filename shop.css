@@ -48,6 +48,11 @@
 
 .shop-grid-item > h2 {
     margin-top: 0px;
+    font-family: 'Arian';
+    color: #414D55;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 0;
 }
 .shop-grid-item > h6 {
     margin-top: -20px;

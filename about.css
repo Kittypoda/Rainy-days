@@ -27,32 +27,32 @@
 .foss{
     display: flex;
     flex-wrap: wrap;
+   
     
    
 
 }
 
-.foss4 {
-    
-    flex: 1 1 50%;
-    
+.foss1 {
+     flex: 1 1 50%;
     aspect-ratio: 1;
     justify-content: center; 
     align-items: center; 
     background-color: #3C555D;
-    max-height: 500px;
+   
        
 }
-.foss4 h2 {
+.foss1 h2 {
     color: #B5D2DC;
-    margin: 30px
+    margin: 30px 
+    
    
     
     
     
 }
 
-.foss4 p{
+.foss1 p{
     color: #fff;
     margin: 30px;
     margin-top: -15px;
@@ -64,21 +64,15 @@
     background-position: center;
     background-size: cover;
     flex: 1 1 50%;
-    min-height: 350px;
+    
     aspect-ratio: 1;
     
 }
 
-.foss1 {
-    background-color: #414D55;
-    flex: 1 1 50%;
-    min-height: 350px;
-    aspect-ratio: 1;
-    justify-content: center; 
-    align-items: center; 
+
    
        
-}
+
 
 .one-mans > h3 {
     text-align: center;
@@ -103,6 +97,7 @@
     border-radius: 5px;
     padding: 6px 60px;
     margin-inline: 60px;
+    
 }
     
 .core {
@@ -124,7 +119,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 1rem;
+    padding: 3rem;
     background-color: #3A3F43;
     text-align: center;
     justify-content: center
@@ -141,7 +136,7 @@
 
 .humanity {
     flex: 0 1 350px;
-    background-image: url(img/sustain.png);
+    background-image: url(img/humanity.png);
     background-repeat: no-repeat;
     padding: 3rem;
     aspect-ratio: 1;
@@ -177,3 +172,4 @@
     color: #fff;
    
 }
+
