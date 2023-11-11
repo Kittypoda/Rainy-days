@@ -1,0 +1,8 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    grid-auto-rows: minmax(auto,auto);
+    margin: auto;
+    max-width: 1400px;
+}
