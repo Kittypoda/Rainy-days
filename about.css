@@ -128,17 +128,19 @@
     background-color: #3A3F43;
     text-align: center;
     justify-content: center
+    
 }
 
 .values h2 {
    
     color: white;
-    font-size: 30px;
+    font-size: 35px;
+    padding-top: 40px;
     
 }
 
 .humanity {
-    flex: 0 0 350;
+    flex: 0 1 350px;
     background-image: url(img/sustain.png);
     background-repeat: no-repeat;
     padding: 3rem;
@@ -146,13 +148,10 @@
    
 }
 
-.humanity > h2 {
-    padding: 35px;
-    padding-top: 40px;
-}
+
 
 .sustainability {
-    flex: 0 0 350;
+    flex: 0 1 350px;
     background-image: url(img/sustain.png);
     background-repeat: no-repeat;
     padding: 3rem;
@@ -160,12 +159,10 @@
   
 }
 
-.sustainability > h2 {
-    padding-top: 40px;
-}
+
 
 .resposibility {
-    flex: 0 0 350;
+    flex: 0 1 350px;
 
     aspect-ratio: 1;
     background-image: url(img/respons.png);
@@ -176,7 +173,3 @@
     
 }
 
-.resposibility > h2 {
-    padding: 8px;
-    padding-top: 40px;
-}
