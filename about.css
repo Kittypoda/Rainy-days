@@ -119,3 +119,64 @@
     font-size: 30px;
 
 }
+
+.values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #3A3F43;
+    text-align: center;
+    justify-content: center
+}
+
+.values h2 {
+   
+    color: white;
+    font-size: 30px;
+    
+}
+
+.humanity {
+    flex: 0 0 350;
+    background-image: url(img/sustain.png);
+    background-repeat: no-repeat;
+    padding: 3rem;
+    aspect-ratio: 1;
+   
+}
+
+.humanity > h2 {
+    padding: 35px;
+    padding-top: 40px;
+}
+
+.sustainability {
+    flex: 0 0 350;
+    background-image: url(img/sustain.png);
+    background-repeat: no-repeat;
+    padding: 3rem;
+    aspect-ratio: 1;
+  
+}
+
+.sustainability > h2 {
+    padding-top: 40px;
+}
+
+.resposibility {
+    flex: 0 0 350;
+
+    aspect-ratio: 1;
+    background-image: url(img/respons.png);
+    background-repeat: no-repeat;
+    padding: 3rem;
+  
+    justify-content: center;
+    
+}
+
+.resposibility > h2 {
+    padding: 8px;
+    padding-top: 40px;
+}
