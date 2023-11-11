@@ -3,6 +3,59 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     grid-auto-rows: minmax(auto,auto);
-    margin: auto;
     max-width: 1400px;
+    padding: 20px;
+
+}
+
+.grid1{
+    margin-left: 4rem;
+   
+
+}
+
+.grid1-text > h2 {
+    margin-top: 10px;
+
+}
+
+.grid1-text > h6 {
+    margin-top: -15px;
+
+}
+
+.grid1-text > p {
+    margin-top: -28px;
+
+}
+
+.grid1-graph >img{
+    max-width: 200px;
+  
+}
+
+.grid1-color >img {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.grid2-img > img {
+    max-width: 400px;
+    margin-top: 40px;
+
+}
+
+.shop-cta {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-family: 'Arian', sans-serif; 
+    font-size: 17px;
+    color: #414D55;
+    border: 1px solid #414D55; 
+    border-radius: 5px;
+    padding: 6px 60px;
+    margin-inline: 120px;
+
 }

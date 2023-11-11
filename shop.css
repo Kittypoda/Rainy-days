@@ -48,7 +48,7 @@
 }
 
 
-.shop-grid-item > h2 {
+.shop-grid-item > a h2  {
     margin-top: 0px;
     font-family: 'Arian';
     color: #414D55;
@@ -56,7 +56,7 @@
     font-weight: bolder;
     padding: 0;
 }
-.shop-grid-item > h6 {
+.shop-grid-item > a h6 {
     margin-top: -20px;
 }
 
