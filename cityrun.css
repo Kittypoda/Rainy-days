@@ -18,11 +18,12 @@
 
 .grid1-text > h2 {
     margin-top: 10px;
+    font-size: 40px;
 
 }
 
 .grid1-text > h6 {
-    margin-top: -15px;
+    margin-top: -25px;
 
 }
 
@@ -61,7 +62,7 @@
 
 .shopbutton{
     margin-left: -30px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .shop-cta {
