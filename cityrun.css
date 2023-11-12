@@ -5,16 +5,12 @@
         gap: 1rem;
         grid-auto-rows: minmax(auto, auto);
         max-width: 1400px;
-        margin: 0 auto; /* Add this line to center the grid */
+        margin: 0 auto; 
         padding: 20px;
 
 }
 
-.grid1{
-   
-   
 
-}
 
 .grid1-text > h2 {
     margin-top: 10px;
@@ -96,3 +92,101 @@
     
    
 }
+
+@media (max-width: 1300px) { /*mobile*/
+    .product-grid {
+        grid-template-columns: 1fr; 
+        margin: 0 auto;
+
+    }
+
+.grid1{
+    margin: auto;
+}
+    .grid1-text > h2 {
+        margin-top: 10px;
+        font-size: 40px;
+        text-align: center;
+       
+    
+    }
+    
+    .grid1-text > h6 {
+        
+        text-align: center;
+    
+    }
+    
+    .grid1-text > p {
+       
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+       
+    
+    }
+    
+    .grid1-graph >img{
+        max-width: 200px;
+        margin-top: 15px;
+        display: none;
+      
+    }
+    
+    .grid1-color >img {
+        max-width: 300px;
+        margin-top: 30px;
+        display: none;
+    }
+    .grid2{
+        margin: auto;
+       
+    }
+    
+    .grid2-img > img {
+        max-width: 350px;
+        margin: auto;
+        
+        
+    
+    }
+
+    .grid3 {
+        margin: auto;
+    }
+    
+    .grid3 p{
+        
+        text-align: center;
+        margin: auto;
+    }
+    
+    
+    .shopbutton{
+        margin: auto;
+    }
+    
+    .shop-cta {
+        display: flex;
+        text-align: center; 
+        font-family: 'Arian', sans-serif; 
+        font-size: 17px;
+        color: #414D55;
+        border: 1px solid #414D55; 
+        border-radius: 5px;
+        padding: 6px 60px;
+        margin-inline: 120px;
+        min-width: 100px;
+        
+    
+    }
+    
+    
+   
+        
+       
+    }
+ 
+       
+         
+      
